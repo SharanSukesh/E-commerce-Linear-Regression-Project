@@ -44,9 +44,6 @@ from sklearn import metrics
 4. Examinnig the Residuals
 5. Analyzing our Coefficients
 
-## Models used:
-1. Linear Regression
-
 ## Hypotheses tested
 1. Engine efficiency has played a role in car sale trends over the last 5 years
 2. Engine efficiency to price plays an important role in car sale trends with respect to engine drive and car body
@@ -54,7 +51,7 @@ from sklearn import metrics
   * With respect to the car body
 
 ## Ackowledgements
-* Perian Data - dataset
+* Perian Data - dataset <img src='../Pierian_Data_Logo.png' width='100' height='100'/>
 
 ## Author - Sharan Sukesh
 
