@@ -51,7 +51,9 @@ from sklearn import metrics
   * With respect to the car body
 
 ## Ackowledgements
-* Perian Data - dataset <img src='../Pierian_Data_Logo.png' width='100' height='100'/>
+* <a href='http://www.pieriandata.com'>Perian Data</a> - dataset
 
 ## Author - Sharan Sukesh
+
+
 
