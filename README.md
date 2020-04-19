@@ -1,4 +1,23 @@
+
 # E-commerce Linear Regression Project
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+## About the Project
 Exploratory Data Analysis of a small e-commerce dataset to answer the problem statement given.</br></br>
 The python notebook __"02-Linear Regression Project"__ contains an initial EDA of data from the hypothetical e-commerce platform and analyzes how different features impact the company's sales. 
 
