@@ -42,7 +42,7 @@ from sklearn import metrics
 ## Dataset used 
 * __Perian Data__ - Ecommerce Customers
 
-## Built on :
+## Built with
 * Jupyter Notebook
 
 ## Questions answered 
