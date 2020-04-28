@@ -61,7 +61,7 @@ from sklearn import metrics
 5. Analyzing our Coefficients
 
 ## Ackowledgements
-* <a href='http://www.pieriandata.com'>Perian Data</a> - dataset
+* <a href='http://www.pieriandata.com'>Perian Data</a> - Dataset
 
 ## Author - Sharan Sukesh
 
