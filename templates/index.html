@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>
+        Home Page
+    </title>
+</head>
+<body style="background-image: url('static/heidi-fin-2TLREZi7BUg-unsplash.jpg'); background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
+<div class="card" style="width: 40%; position:relative; left: 29%; top:5em">
+        <div class="card-header">
+            <h5 class="card-title" style="text-align: center;">Prediction of Yearly Amount Spent by a customer for an E-commerce store</h5>
+        </div>
+        <div class="card-body">
+            <form action="{{url_for('predict')}}" method="post">
+                <div class="form-group">
+                  <label for="averageSessionLength">Average Session Length (In minutes)</label>
+                  <!-- With placeholder>
+                  <input type="text" class="form-control" id="averageSessionLength" aria-describedby="sessionlHelp" placeholder="Enter Length of Session">
+                  -->
+                <input type="text" name = "sessionTime" class="form-control" id="averageSessionLength" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="timeOnApp">Time on App (In minutes)</label>
+                  <input type="text" name= "timeOnApp" class="form-control" id="timeOnApp" aria-describedby="sessionlHelp" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="timeOnWebsite">Time on Website (In minutes)</label>
+                  <input type="text" name="timeOnWebsite" class="form-control" id="timeOnWebsite" aria-describedby="sessionlHelp" required="required">
+                </div>
+                <div class="form-group">
+                  <label for="membershipLength">Membership Length (In years)</label>
+                  <input type="text" name="membershipLength" class="form-control" id="membershipLength" aria-describedby="sessionlHelp" required="required">
+                </div>
+                <button type="submit" class="btn btn-primary">Predict</button>
+              </form>
+            </br>
+          </br>
+          <h5 class="card-title" style="text-align: center;">{{prediction_text}}</h5>
+        </div>
+      </div>
+
+<!--
+ {% for x in range(5) %}
+        {% if x % 2 == 0 %}
+            {% print(x) %}
+        {% endif %}
+    {% endfor %}
+    <p>{{content}}</p>-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
