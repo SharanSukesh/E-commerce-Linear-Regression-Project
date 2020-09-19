@@ -64,7 +64,7 @@ from sklearn import metrics
 ## Live Demo
 Below is a link that will direct you to the live project which contains input fields for each independant variable and a predict button which, when clicked, will use the model we have trained to output a value of estimated yearly expenditure of a customer.
 
-<a href='https://e-commerce-linear-regression.herokuapp.com/'>Live Demo</a> - Dataset
+<a href='https://e-commerce-linear-regression.herokuapp.com/'>Live Demo</a> - Demo
 
 ## Ackowledgements
 * <a href='http://www.pieriandata.com'>Perian Data</a> - Dataset
